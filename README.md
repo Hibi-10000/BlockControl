@@ -7,7 +7,7 @@ Bukkit(Spigot,Paper) 1.16.5~
 
 config.yml
 BanBlock:
-  - TNT  #置けないようにするブロック名(大文字)
-  - LAVA
+  \- TNT  #置けないようにするブロック名(大文字)
+  \- LAVA
 WhiteWorld:
-  - whiteworld #BanBlockを置けるようにするワールド名
+  \- whiteworld #BanBlockを置けるようにするワールド名
