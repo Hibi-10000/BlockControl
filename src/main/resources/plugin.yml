@@ -1,0 +1,27 @@
+name: BlockControl
+main: jp.minecraft.hibi_10000.plugins.BlockControl
+author: Hibi_10000
+website: https://github.com/Hibi-10000/BlockControl
+version: 1.0.0
+api-version: 1.16
+commands:
+   bc:
+      description: BlockControl command help for /bc help command.
+      alias: [blockcontrol]
+      permission: blockcontrol.command
+      permission-message: Unknown command. Type "/help" for help.
+permission:
+  blockcontrol:
+    default: op
+    children:
+      blockcontrol.plase: true
+      blockcontrol.command: true
+  blockcontrol.plase:
+    default: false
+    children:
+      blockcontrol.plase.*: true
+  blockcontrol.plase.*:
+    default: false
+  blockcontrol.command:
+    default: false
+  #default-parmission: op
