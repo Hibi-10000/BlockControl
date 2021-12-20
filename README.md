@@ -1,9 +1,9 @@
 # BlockControl
 Bukkit(Spigot,Paper) 1.16.5~  
-うまく行けば粉雪もできるかも(1.17~)(後で検証するけど)  
-まあ粉雪設定することないだろ(((  
-使い方は/bc help見ればだいたい分かる。  
-めんどくさかったので/bc helpのクリック実行はないです。  
+  
+ブロックの設置を制限できます。  
+使い方は/bc helpを見ればだいたい分かる。  
+ワールドごとに制限できるように後でします。  
   
 config.yml  
 BanBlock:  
@@ -11,3 +11,7 @@ BanBlock:
   \- LAVA  
 WhiteWorld:  
   \- whiteworld #BanBlockを置けるようにするワールド名  
+  
+不具合があったら報告していただけると助かります。  
+  
+Copyright © 2021 Hibi_10000 All rights reserved.  
